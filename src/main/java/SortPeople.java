@@ -35,6 +35,7 @@ public class SortPeople {
 
 
         Arrays.sort(people,new LastNameComparator());
+        //Arrays.sort(people, LastNameComparator.LAST_NAME_COMPARATOR); //Med den custom, der kigger på to fields
 
         // skriv kode herunder COMPARABLE
         System.out.println("\nSortering pba. "+ANSI_RED+"efternavn:"+ANSI_RESET);
